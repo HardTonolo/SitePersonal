@@ -1,0 +1,151 @@
+body {
+  background-color: #717173 !important;
+
+  .navbar {
+    background-color: #040404 !important;
+    .nav-item {
+      padding-right: 35px !important;
+      padding: 10px;
+      a {
+        color: #fecf00;
+      }
+      .nav-link {
+        font-weight: bold;
+      }
+      .nav-link:hover {
+        color: #f8f6ec;
+      }
+    }
+  }
+
+h2{
+  text-align: center;
+  padding-top: 40px;
+  color: #fecf00;
+  font-weight: bold;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+  form{
+    background-color: #878787;
+    max-width: 650px;
+    margin: 80px auto;
+    box-shadow: 0 0 10px #202020;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: "IBM Plex Sans", sans-serif;
+    .btn{
+      margin: 0 250px auto;
+      padding: 10px 20px;
+      margin-top: 15px;
+    }
+  }
+
+  .maps{
+    box-shadow: 0 0 10px #040404;
+    border-radius: 5px;
+    margin: 80px auto;
+    /*margin-left: 280px;*/
+    padding: 20px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 800px;
+  }
+  h1,
+  p {
+    text-align: center;
+    padding-top: 60px;
+    color: #f8f6ec;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  p {
+    text-align: justify !important;
+  }
+  .resultado {
+    color: #fecf00;
+    font-family: "Edu VIC WA NT Hand", cursive;
+  }
+  .row{
+    .col{
+      margin: 20px;
+      margin-top: 70px;
+      box-shadow: 0 0 10px #202020;
+      border-radius: 5px;
+    }
+  }
+  .persona{
+    margin-top: 200px
+  }
+  .personal{
+  align-items: center !important;
+  }
+  footer {
+    background-color: #040404;
+    padding: 1px 0;
+    p {
+      color: #fecf00 !important;
+      padding: 5px;
+      padding-top: 10px !important;
+      text-align: center !important;
+    }
+    .icones{
+      text-align: center;
+      margin: 20px;
+    }
+    .icones a{
+      display: inline-flex;
+      width: 40px;
+      height: 40px;
+      text-decoration: none;
+      background-color: #717173;
+      color: #fecf00;
+      margin: 0 6px;
+      border-radius: 40px;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      transition: 1s all;
+    }
+    .icones a:hover{
+      .fa-instagram{
+        color: rgb( 255, 41, 77);
+        transition: 0.4s;
+      }
+      .fa-whatsapp{
+        color: rgb(14, 255, 14);
+        transition: 0.4s;
+      }
+    }
+  }
+  .planos {
+    text-align: center;
+    p{
+      text-align: center !important;
+      padding-top: 0px;
+      font-weight: bold;
+      color: #f8f6ec;
+    }
+    h3 {
+      padding-top: 15px;
+      color: #fecf00;
+      font-family: "IBM Plex Sans", sans-serif;
+    }
+    h4{
+      color: #040404;
+      font-family: "IBM Plex Sans", sans-serif;
+    }
+    ul{
+      padding-left: 100px;
+      font-family: "IBM Plex Sans", sans-serif;
+    }
+    li{
+      padding-right: 100px;
+      color: #f8f6ec;
+      font-family: "IBM Plex Sans", sans-serif;
+    }
+    .btn{
+      padding: 15px;
+    }
+  }
+}
